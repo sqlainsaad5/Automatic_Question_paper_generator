@@ -1,5 +1,14 @@
 #Automatic_Question_paper_generator
 
+A semester Project
+
+Undertaken By: 
+
+          Saad Amjad            (SP21-BSE-006)
+          Shahzaib Kamal Arshad (SP21-BSE-006)
+
+
+
 ![1](https://github.com/sqlainsaad5/Automatic_Question_paper_generator/assets/140234048/e9a8b092-3911-4b2b-bb00-33c888973d55)
 ![2](https://github.com/sqlainsaad5/Automatic_Question_paper_generator/assets/140234048/abc7193a-84dc-4d4b-b65f-628ca689b79a)
 ![3](https://github.com/sqlainsaad5/Automatic_Question_paper_generator/assets/140234048/7207e3fd-3f0f-4100-881a-e0a2906208a2)
