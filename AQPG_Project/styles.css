@@ -1,0 +1,133 @@
+/* styles.css */
+body {
+  color: #000; /* Change text color to black */
+  background-image: url('images/background.jpg');
+
+    font-family: "Poppins";
+
+}
+/* Custom primary button color */
+.btn-primary {
+  background-color: #473BF0;
+  border-color: #473BF0;
+}
+.features img{
+  width: 20px;
+  height: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#languages{
+  margin-top: 100px;
+}
+.universities img{
+  width: 100px;
+  height: 100px;
+  
+}
+
+
+
+
+.navbar {
+ 
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+  color: #fff; /* Ensure logo text is white */
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner {
+  background-position: center;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff; /* Change banner text color to white */
+}
+
+.container1 {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #000; /* Ensure container1 text color is black for readability */
+}
+
+.form {
+  text-align: center;
+  color: #000; /* Ensure form text color is black for readability */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+.container1 button {
+  display: block;
+  width: 100%;
+  padding: 10px 10px; /* Adjusted padding */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #000; /* Ensure input text color is black for readability */
+}
+
+.container1 button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  color: #000; /* Ensure paragraph text color is black for readability */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional specific styles for view_paper_detail.html */
+.paper-content h2, .paper-content h3, .paper-content p, .paper-content ol {
+  color: #000; /* Ensure all text in paper content is black */
+}
+
+.paper-content ol li {
+  color: #000; /* Ensure list items in paper content are black */
+}
+
+.paper-content ol ol li {
+  color: #000; /* Ensure nested list items in paper content are black */
+}

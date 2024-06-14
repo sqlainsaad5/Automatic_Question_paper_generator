@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Teacher Accounts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add any additional CSS files here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="AQPG Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teacher_dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2>Manage Teacher Accounts</h2>
+        <form id="manageTeacherAccountsForm">
+            <div class="form-group">
+                <label for="teacherUsername">Username</label>
+                <input type="text" class="form-control" id="teacherUsername" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label for="teacherPassword">Password</label>
+                <input type="password" class="form-control" id="teacherPassword" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <label for="teacherContact">Contact Information</label>
+                <input type="text" class="form-control" id="teacherContact" placeholder="Enter contact information">
+            </div>
+            <button type="submit" class="btn btn-primary">Add Teacher</button>
+            <a href="Manage Teacher Accounts_view.html" class="btn btn-success">View</a>
+        </form>
+    </div>
+
+    <!-- Include any necessary JavaScript files here -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Add your custom JavaScript file if needed -->
+    <script src="script.js"></script>
+</body>
+</html>
